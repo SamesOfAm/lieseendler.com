@@ -1,0 +1,14 @@
+@import 'variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", monospace;
+  color: $secondary-color;
+  background-color: $primary-color;
+  font-size: 14px;
+}
+
+@import 'main';
+@import 'header';
+@import 'footer';

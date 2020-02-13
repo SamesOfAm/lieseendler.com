@@ -1,0 +1,1 @@
+<span class="credits-index">(c) 2016-2019 Liese Endler. Developed by Florian Tepelmann</span>
