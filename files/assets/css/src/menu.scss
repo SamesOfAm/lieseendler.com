@@ -1,0 +1,56 @@
+@import 'variables';
+
+#mobile-menu-2 {
+  height: 45vh;
+}
+
+.mobile_menu_trigger {
+  width: 49px;
+  position: absolute;
+  right: 6vw;
+  top: 6vh;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.mobile_menu .inner {
+  background-color: transparent;
+  padding: 0 35px;
+}
+
+.mobile_menu.active.position_right {
+  box-shadow: none;
+}
+
+.mobile_menu .inner .menu {
+  height: 100%;
+}
+
+.mobile_menu .inner .menu .mod_customnav {
+  height: 100%;
+}
+
+.mobile_menu .inner .menu ul {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.mobile_menu .inner .menu ul li {
+  width: 100%;
+}
+
+.mobile_menu .inner .menu ul li a, .mobile_menu .inner .menu ul li strong {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+}
+
+.mobile_menu .inner .menu ul li a:hover:before, .mobile_menu .inner .menu ul li a:hover:after {
+  width: 100%;
+}

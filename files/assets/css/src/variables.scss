@@ -1,0 +1,50 @@
+$performance: #ef6078;
+$theater: #fbb79d;
+$immersive: black;
+$teaching: #26cccc;
+$old-stuff: #fbb79d;
+
+$mobile: 990px;
+
+@font-face {
+  font-family: "AR Bonnie";
+  src: url("/../assets/fonts/arbonnie.ttf");
+}
+
+@keyframes circle {
+  from { transform: rotate(0deg)
+  translate(-130px)
+  rotate(0deg);
+  }
+  to {   transform: rotate(360deg)
+  translate(-130px)
+  rotate(-360deg);
+  }
+}
+
+@keyframes letters-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-1500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(1500px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
